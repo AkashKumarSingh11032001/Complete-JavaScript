@@ -46,6 +46,18 @@ while(num < 10){
     console.log(num);
 }
 
+    // --> For loops
 for(let i = 0; i < 10; i++){
     console.log(i);
 }
+
+// Datatype
+
+let age = 50;
+let name = "Akash Kumar Singh";
+let name = {first:'akash',last:'singh'};
+let truth = false;
+let groc = ['a', 'b', 'c', 'd', 'e', 'd'];
+let random; //undefined
+let nothing = null;
+
