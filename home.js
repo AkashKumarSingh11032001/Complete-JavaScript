@@ -8,4 +8,5 @@ var sum = 50;
 console.log(sum);
 
 //getting html id and changing in js
-document.getElementById('a').innerHTML = "Fuck World";
+var age = prompt("You'r age: ");
+document.getElementById('abcd').innerHTML = age;
