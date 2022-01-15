@@ -37,3 +37,15 @@ function arthematics(a,b){
 }
 // arthematics(50,5)
 
+//  Loops
+    // --> While Loops
+
+var num = 0;
+while(num < 10){
+    num+=1;
+    console.log(num);
+}
+
+for(let i = 0; i < 10; i++){
+    console.log(i);
+}
