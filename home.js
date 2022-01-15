@@ -29,3 +29,11 @@ function fun1(){
 }
 // fun1();
 
+function arthematics(a,b){
+    console.log(a+b);
+    console.log(a-b);
+    console.log(a*b);
+    console.log(a/b);
+}
+// arthematics(50,5)
+
