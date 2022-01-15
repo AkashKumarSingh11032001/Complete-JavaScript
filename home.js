@@ -105,7 +105,13 @@ console.log(n.sort()); // accending-sort
 console.log(n.sort(function(a,b){return a-b})); //accending -sort
 console.log(n.sort(function(a,b){return b-a})); //deccending -sort
 
+ // user define array functions
 
+ let emp = [];
+ for(let i = 0; i < 5;i++){
+     emp.push(i);
+ }
+ console.log(emp);
 
 
 
