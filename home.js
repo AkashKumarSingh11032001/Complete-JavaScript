@@ -75,3 +75,28 @@ console.log(fruit.toUpperCase(fruit));
 console.log(fruit[2]);
 console.log(fruit.split('')); // split by charater space,comma etc
 
+//  Arrays in JS
+
+let arr = ['a', 'b', 'c', 'd', 'e', 'f'];
+new_arr = new Array('a', 'b', 'c', 'd', 'e', 'e');
+console.log(arr[3]);
+arr['f'] = 'g';
+
+for(let i = 0; i < arr.length; i++){
+
+    console.log(arr[i]);
+}
+
+// array common methods
+console.log(arr.join('*'));
+console.log(arr.push('x'),arr);
+console.log(arr.pop(),arr);
+arr.shift(); //remove first element
+arr.unshift('q'); //add element at first in an arry
+
+
+
+
+
+
+
