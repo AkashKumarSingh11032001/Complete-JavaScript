@@ -54,10 +54,24 @@ for(let i = 0; i < 10; i++){
 // Datatype
 
 let age = 50;
-let name = "Akash Kumar Singh";
+let namex = "Akash Kumar Singh";
 let name = {first:'akash',last:'singh'};
 let truth = false;
 let groc = ['a', 'b', 'c', 'd', 'e', 'd'];
 let random; //undefined
 let nothing = null;
+
+
+// string in JS
+let fruit = 'apple';
+let morefruit = 'apple\nbanana\nfuck';
+console.log(morefruit);
+console.log(fruit.length);
+console.log(fruit.indexOf('pp'));
+console.log(fruit.slice(2,4));
+console.log(fruit.replace('pp','xx'));
+console.log(fruit.toLowerCase(fruit));
+console.log(fruit.toUpperCase(fruit));
+console.log(fruit[2]);
+console.log(fruit.split('')); // split by charater space,comma etc
 
