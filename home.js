@@ -20,4 +20,12 @@ console.log(80*98);
 function fun(){
     console.log("this is fun");
 }
-fun();
+// fun();
+
+
+function fun1(){
+    var name = prompt("Name: ");
+    console.log("Hello " + name);
+}
+// fun1();
+
