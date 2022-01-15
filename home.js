@@ -15,3 +15,9 @@ console.log(sum);
 //Number is js
 var num1 = 5.7;
 console.log(80*98);
+
+//Function is
+function fun(){
+    console.log("this is fun");
+}
+fun();
