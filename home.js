@@ -94,6 +94,16 @@ console.log(arr.pop(),arr);
 arr.shift(); //remove first element
 arr.unshift('q'); //add element at first in an arry
 
+let veg = ['x','y','z'];
+let fru = ['p','q','r'];
+let all = fru.concat(veg);
+console.log(all);
+console.log(all.reverse()); //reverse
+
+let n = [1,5,2,9,3];
+console.log(n.sort()); // accending-sort
+console.log(n.sort(function(a,b){return a-b})); //accending -sort
+console.log(n.sort(function(a,b){return b-a})); //deccending -sort
 
 
 
