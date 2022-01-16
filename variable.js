@@ -7,3 +7,5 @@ console.log(hel +" "+ no);
 let a = 50;
 let b = 100;
 console.log(a+b);
+
+//  block scope vs functions scopes
