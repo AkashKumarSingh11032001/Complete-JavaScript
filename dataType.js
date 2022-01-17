@@ -15,10 +15,10 @@ let nam = "akash";
 console.log(typeof nam);
 
 // conver number to strings {trick}
-age += "";
+age += "";  // or age = string(age)
 console.log(typeof age);
 
 // convert string to Number {trick}
-let st = "58"
+let st = "58" // or st = Number(st)
 st = +st;
 console.log(typeof st);
