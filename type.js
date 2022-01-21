@@ -30,3 +30,11 @@ const a = [1,2,3];
 let [a1,b1] =  a;
 console.log(a1);
 console.log(b1);
+
+
+let name = ['ab','cd','ef','gh','ij'];
+let [n1,n2,...newName] = name; // n1->ab || n2->cd || rest in newName array
+// let [n1, , , ,n2] = name; //n1-> ab || n2 -> ij
+console.log(n1);
+console.log(n2);
+console.log(newName)
