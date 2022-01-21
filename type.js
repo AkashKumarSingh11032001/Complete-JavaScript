@@ -20,3 +20,13 @@ const frus = ['a','b','c','d']
 for(let index in frus){
     console.log(index);
 }
+
+// array destructing
+const a = [1,2,3];
+// let a1 = a[0];
+// let b1 = a[1];
+
+// direct vaal
+let [a1,b1] =  a;
+console.log(a1);
+console.log(b1);
