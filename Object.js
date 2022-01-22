@@ -48,3 +48,24 @@ console.log(dell);
 // stor rest propert in other object
 const {a,b, ...rest} = band;
 console.log(rest);
+
+// object inside array
+
+const user = [
+    {users:1,name:"akash",age:21},
+    {users:2,name:"kumar",age:22},
+    {users:3,name:"singh",age:23},
+]
+
+for(let use of user){
+    console.log(use.name);
+}
+
+// nested destructing
+const [a,b,c] = user;
+console.log(a);
+
+// user of 1 and age of 3rd
+const [{users},,{age}] = user
+console.log(users);
+console.log(age);
