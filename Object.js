@@ -27,3 +27,24 @@ for(let key in person){
 for(let i of Object.keys(person)){
     console.log(person[i])
 }
+
+// object destructing
+const band={
+    a: "1",
+    b:"2",
+    e:"3",
+    f:"4",
+}
+
+const {a,b} = band;
+console.log(a);
+console.log(b);
+
+// or you want to store valnin other var
+const {a:con,b:dell} = band;
+console.log(con);
+console.log(dell);
+
+// stor rest propert in other object
+const {a,b, ...rest} = band;
+console.log(rest);
