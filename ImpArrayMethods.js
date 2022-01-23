@@ -46,3 +46,4 @@ const isEven = function(num){
 const evenNum = numbers.filter(isEven);
 console.log(evenNum);
 
+// REDUCE :
