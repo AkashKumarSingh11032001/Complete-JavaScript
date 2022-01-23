@@ -19,3 +19,14 @@ num.forEach(function(n){
     console.log(n*2);
 })
 
+
+// *************
+// MAP : create new array after applied computation
+const numbers = [3,4,5,6,7];
+function square(num){
+    return num*num;
+}
+
+// number.forEach(square);
+const newSquare = numbers.map(square);
+console.log(newSquare)
