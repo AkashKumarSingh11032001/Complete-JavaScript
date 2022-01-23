@@ -30,3 +30,9 @@ function square(num){
 // number.forEach(square);
 const newSquare = numbers.map(square);
 console.log(newSquare)
+
+// or
+const updatesq = numbers.map(function(num){
+    return num*num;
+})
+console.log(updatesq)
