@@ -36,3 +36,12 @@ const updatesq = numbers.map(function(num){
     return num*num;
 })
 console.log(updatesq)
+
+//  FILTERS : store the data in an array only if the mentioned condition return true only.
+const numbers = [3,4,5,6,7];
+const isEven = function(num){
+    return num%2===0;
+}
+const evenNum = numbers.filter(isEven);
+console.log(evenNum);
+
