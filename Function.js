@@ -38,3 +38,8 @@ detail(person);
 detail2(person);
 
 
+// function callbacks
+// ---> function calling another function as passed in parameter
+
+// function return function
+// ---> function able to return the fuction that was made inside that function
