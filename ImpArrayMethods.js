@@ -53,3 +53,15 @@ number.sort();
 console.log(number);
 number.sort((a,b)=>{return b>a});  
 console.log(number);
+
+// ***********
+//  Find 
+ 
+const arr = ["abc","defg","hijkl"];
+
+function isLength(str) {
+    return str.length === 3;
+}
+
+const ans = arr.find(isLength);
+console.log(ans);
