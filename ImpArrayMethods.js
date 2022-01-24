@@ -51,3 +51,5 @@ console.log(evenNum);
 const number = [5,9,6,1,2,,8,3];
 number.sort();
 console.log(number);
+number.sort((a,b)=>{return b>a});  
+console.log(number);
