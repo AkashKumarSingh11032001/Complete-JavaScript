@@ -46,4 +46,8 @@ const isEven = function(num){
 const evenNum = numbers.filter(isEven);
 console.log(evenNum);
 
-// REDUCE :
+// **************
+//  SORTING
+const number = [5,9,6,1,2,,8,3];
+number.sort();
+console.log(number);
