@@ -65,3 +65,53 @@ function isLength(str) {
 
 const ans = arr.find(isLength);
 console.log(ans);
+
+// ***********
+// Every
+// every : it will return true only if 'all' element statify the mentioned condition
+const numbers = [2,4,6,8,10];
+
+const val = numbers.every((number)=>number%2===0);
+console.log(val);
+
+// ***********
+// Some
+// some : it will return true only if 'any' element statify the mentioned condition
+const numbers = [2,4,6,8,11];
+
+const val = numbers.some((number)=>number%2===0);
+console.log(val);
+
+
+// ***********
+// fill
+//  fill the enitire array with some predifent value
+
+const myArray = new Array(10).fill(0);
+console.log(myArray);
+
+// fille can be used to fill some part of array with some value
+// fill(value,start,end)
+const arr = [1,2,3,4,5,6,7,8,9];
+arr.fill(0,2,5);
+console.log(arr);
+
+
+// *************
+//  SPLICES 
+//  (start,delete,insert)
+
+const arr = ["a","b","c"];
+console.log(arr);
+// delete
+const delitem = arr.splice(1,1);
+console.log(delitem);
+console.log(arr);
+// insert
+arr.splice(1,0,"b");
+console.log(arr);
+
+// using both insert and delete
+arr.splice(1,2,"d","e");
+console.log(arr);
+
