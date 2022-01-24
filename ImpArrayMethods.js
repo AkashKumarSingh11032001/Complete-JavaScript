@@ -115,3 +115,5 @@ console.log(arr);
 arr.splice(1,2,"d","e");
 console.log(arr);
 
+
+
