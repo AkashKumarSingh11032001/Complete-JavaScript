@@ -1,6 +1,15 @@
 
 let count = 0;
 function increment(){
-    count++;
-    return doucument.getElementById("increment-btn").innerHTML = count;
+    count = count+1;
+    document.getElementById("count-el").innerHTML = count;
 }
+
+function decrement(){
+    count = count-1;
+    if(count < 0){
+        document.getElementById("count-el").innerHTML = 0;
+    }
+    // document.getElementById("count-el").innerHTML = count;
+}
+
