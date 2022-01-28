@@ -7,7 +7,7 @@ let message = ""
 
 let messageEl = document.getElementById('message-el')
 let sumEL = document.getElementById('sum-el')
-
+let cardsEl = document.getElementById('cards-el')
 
 function start() {
 
@@ -22,7 +22,11 @@ function start() {
     }
     
     messageEl.textContent = message
-    sumEL.textContent += sum
+    sumEL.textContent = "Sum : " + sum
+    cardsEl.textContent = "Card :" + firstCard + " " + secondCard
 }
 
+function newCard() {
+
+}
 
