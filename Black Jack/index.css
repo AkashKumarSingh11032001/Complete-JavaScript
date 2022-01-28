@@ -2,8 +2,12 @@
 
 body {
 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: green;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    
     
 }
 
@@ -12,5 +16,7 @@ h1 {
 }
 
 #message-el {
+
+    font-style: italic;
     
 }
