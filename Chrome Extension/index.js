@@ -12,5 +12,5 @@ inputBtn.addEventListener('click', function(){
 
 // render the list content on screan
 for(let i = 0; i < myLeads.length; i++){
-    ulEl.textContent = myLeads[i]
+    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
 }
