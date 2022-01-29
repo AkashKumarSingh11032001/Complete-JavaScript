@@ -1,5 +1,5 @@
 
-let myLeads = [a,b,c]
+let myLeads = []
 const inputEl = document.getElementById('input-el')
 const inputBtn = document.getElementById('input-btn')
 const ulEl = document.getElementById('ul-el')
@@ -10,11 +10,16 @@ inputBtn.addEventListener("click", function(){
     inputEl.value = ''
 })
 
+
+
+let listItemEl = ""
+
 // render the list content on screan
 for(let i = 0; i < myLeads.length; i++){
-    // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+    listItemEl += "<li>" + myLeads[i] + "</li>"
     // OR
-    const li = document.createElement("li")
-    li.textContent = myLeads[i]
-    ulEl.append(li)
+    // const li = document.createElement("li")
+    // li.textContent = myLeads[i]
+    // ulEl.append(li)
 }
+ulEl.innerHTML = listItemEl
