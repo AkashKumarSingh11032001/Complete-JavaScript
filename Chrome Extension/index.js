@@ -21,7 +21,7 @@ function renderLeads(){
         // listItemEl += "<li><a target='_blank' href=' " + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
         // template string
         listItemEl += `<li>
-            <a target='_blank' href=' ${myLeads[i]}'>" 
+            <a target='_blank' href=' ${myLeads[i]}'>
             ${myLeads[i]}
             </a>
         </li>
