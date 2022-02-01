@@ -4,6 +4,7 @@ const inputEl = document.getElementById('input-el')
 const inputBtn = document.getElementById('input-btn')
 const ulEl = document.getElementById('ul-el')
 const deleteBtn = document.getElementById('delete-btn')
+const tabBtn = document.getElementById('tab-btn')
 
 // saving saved data to locally
 const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
@@ -26,6 +27,8 @@ deleteBtn.addEventListener("dblclick",function(){
     myLeads = []
     render(myLeads)
 })
+
+// save tab button functinality
 
 // show element on screan every time when click on save button
 function render(leads){
