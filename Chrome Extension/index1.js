@@ -32,6 +32,7 @@ deleteBtn.addEventListener("dblclick",function(){
 tabBtn.addEventListener("click",function(){
     // grab url from current tab
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        console.log(JSON.stringify(tabs[0]));
         myLeads.push(tabs[0].url)
         localStorage.setItem('myLeads', JSON.stringify(myLeads)) //feteching data from local strage
         render(myLeads)
