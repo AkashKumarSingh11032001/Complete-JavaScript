@@ -32,6 +32,12 @@ deleteBtn.addEventListener("dblclick",function(){
 const tab = [
     {url: "https://www.linkedin.com/in/per-harald-borgen/"}
 ] 
+tabBtn.addEventListener("click",function(){
+    myLeads.push(tab[0].url)
+    localStorage.setItem('myLeads', JSON.stringify(myLeads)) //feteching data from local strage
+    render(myLeads)
+})
+
 
 // show element on screan every time when click on save button
 function render(leads){
