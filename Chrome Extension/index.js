@@ -6,7 +6,7 @@ const ulEl = document.getElementById('ul-el')
 
 
 // saving saved data to locally
-let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
+const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 if(leadsFromLocalStorage){
     myLeads = leadsFromLocalStorage
     renderLeads()
