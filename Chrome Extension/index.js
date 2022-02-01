@@ -29,6 +29,9 @@ deleteBtn.addEventListener("dblclick",function(){
 })
 
 // save tab button functinality
+const tab = [
+    {url: "https://www.linkedin.com/in/per-harald-borgen/"}
+] 
 
 // show element on screan every time when click on save button
 function render(leads){
