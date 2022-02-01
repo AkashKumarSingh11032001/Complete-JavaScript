@@ -29,18 +29,15 @@ deleteBtn.addEventListener("dblclick",function(){
 })
 
 // save tab button functinality
-const tabs = [
-    {url: "https://www.linkedin.com/in/per-harald-borgen/"}
-] 
 tabBtn.addEventListener("click",function(){
     // grab url from current tab
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        let activeTab = tabs[0]
-        let activeTabId = activeTab.id // or do whatever you need
+        myLeads.push(tabs[0].url)
+        localStorage.setItem('myLeads', JSON.stringify(myLeads)) //feteching data from local strage
+        render(myLeads)
+       
     })
-    myLeads.push(tabs[0].url)
-    localStorage.setItem('myLeads', JSON.stringify(myLeads)) //feteching data from local strage
-    render(myLeads)
+    
 })
 
 
